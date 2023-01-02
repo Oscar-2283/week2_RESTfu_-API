@@ -93,7 +93,7 @@
                   </div>
                 </div>
               </div>
-              <template v-for="(images,key) in temp.imagesUrl" :key="images">
+              <template v-for="(images,key) in temp.imagesUrl" :key="key">
                 <img :src="images" :alt="images" class="images m-2" />
               </template>
             </template>
